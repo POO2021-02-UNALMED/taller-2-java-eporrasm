@@ -19,8 +19,8 @@ public class Auto {
 		for (Asiento elemento : asientos) {
 				if (! (registro == motor.registro && motor.registro == elemento.registro)) {
 					return "Las piezas no son originales";
-					return "Auto original";
 				}
+		return "Auto original";
 		}
 	}
 }
