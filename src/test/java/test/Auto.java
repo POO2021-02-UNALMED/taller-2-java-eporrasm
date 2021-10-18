@@ -1,4 +1,7 @@
 package test;
+
+import java.lang.reflect.Array;
+
 public class Auto {
 	String modelo;
 	int precio;
@@ -9,16 +12,13 @@ public class Auto {
 	static int cantidadCreados;
 	
 	public int cantidadAsientos() {
-		int cont = 0;
-		for (elemento : asientos) {
-			if (elemento instanceof Asiento) {
-				cont ++;
-			}
-		return cont;
+		return asientos.length;
 		}
 		
-	
-				}
+		public String verificarIntegridad() {
+			for (Asiento elemento : asientos) {
+					if (! (registro == motor.registro && motor.registro == elemento.registro)) {
+						return "Las piezas no son originales"
 		return "Auto original"
 				}
 			}
