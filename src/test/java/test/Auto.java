@@ -18,6 +18,7 @@ public class Auto {
 			cont ++;
 			}
 		}
+		return cont;
 	}
 		
 	public String verificarIntegridad() {
