@@ -5,7 +5,7 @@ import java.lang.reflect.Array;
 public class Auto {
 	String modelo;
 	int precio;
-	Array[] asientos;
+	Asiento[] asientos;
 	String marca;
 	Motor motor;
 	int registro;
