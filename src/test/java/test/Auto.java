@@ -14,10 +14,11 @@ public class Auto {
 	public int cantidadAsientos() {
 		int cont = 0;
 		for (int i = 0; i<asientos.length; i++) {
-			if (asientos[i] != null);
+			if (asientos[i] != null) {
 			cont ++;
+			}
 		}
-		}
+	}
 		
 	public String verificarIntegridad() {
 		for (int i = 0; i<asientos.length; i++) {
