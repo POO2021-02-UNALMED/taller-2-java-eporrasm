@@ -15,13 +15,13 @@ public class Auto {
 		return asientos.length;
 		}
 		
-		public String verificarIntegridad() {
-			for (Asiento elemento : asientos) {
-					if (! (registro == motor.registro && motor.registro == elemento.registro)) {
-						return "Las piezas no son originales"
-		return "Auto original"
+	public String verificarIntegridad() {
+		for (Asiento elemento : asientos) {
+				if (! (registro == motor.registro && motor.registro == elemento.registro)) {
+					return "Las piezas no son originales";
+					return "Auto original";
 				}
-			}
-	}
+		}
 	}
 }
+
